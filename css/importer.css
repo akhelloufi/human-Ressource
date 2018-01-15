@@ -1,0 +1,56 @@
+.frm{
+width: 544px;
+margin: auto;
+margin-top: 40px;
+line-height: 50px;
+}
+.frm label
+{
+color: #00F;
+font-size: 21px;
+font-weight: bold;
+margin: 9px;
+}
+
+.frm form input[type="submit"]
+{position: relative;
+top: -37px;
+left: 66px;
+color: #00F;
+font-size: 16px;
+font-weight: bold;
+width: 114px;
+height: 69px;
+border: 1px solid;
+box-shadow: 2px 2px 3px #B90CAB;
+border-radius: 6px;}
+
+
+.result{
+color: #008000;
+font-size: 19px;
+width: 234px;
+margin: auto;}
+ .inputfile {
+position: relative;
+top: 31px;
+left: 361px;
+border-radius: 6px;
+width: 114px;
+border: 1px solid;
+height: 69px;
+box-shadow: 2px 2px 3px #B90CAB;
+overflow: hidden;
+background: #D0D1D4 url(../images/btn_submit.png) repeat-x;
+     }
+ .inputfile input {
+      position:absolute;
+      right:0;
+      top:0;
+      font-size:600px;
+      opacity:0;
+      -moz-opacity:0;
+      filter:alpha(opacity=0);
+      cursor:pointer;
+      text-align:right;
+     }
